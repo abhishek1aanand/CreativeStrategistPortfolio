@@ -45,4 +45,5 @@ Semantic HTML, visible focus states throughout, and scroll-reveal animations tha
 
 ## Open items
 
-- [ ] Verify sharing permissions on the Static Graphics swipe file doc
+- [ ] Fix sharing on the Dr. James Farley doc — currently returns HTTP 401, breaking
+      both the "Long-Form Ad" and "Ad Script (VO)" swipe file cards

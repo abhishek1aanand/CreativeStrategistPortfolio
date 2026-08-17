@@ -208,6 +208,9 @@ export const swipeFile: SwipeFileItem[] = [
   { type: "Long-Form Ad", client: "Airlinepops", href: "https://docs.google.com/document/d/19sWq3aBANFtXjY3Gqzm6SZC1nxxZV7EokS5ayF3-xiA/edit?usp=sharing" },
   { type: "Graphics Copy", client: "Airlinepops", href: "https://docs.google.com/document/d/19sWq3aBANFtXjY3Gqzm6SZC1nxxZV7EokS5ayF3-xiA/edit?usp=sharing" },
   { type: "PDP Copy (live)", client: "Airlinepops.com", href: "https://airlinepops.com/products/airlinepops" },
+  // TODO: this doc returns HTTP 401 — it is NOT shared publicly, so both cards
+  // below currently dead-end for visitors. Set it to "Anyone with the link →
+  // Viewer" in Google Docs, or swap in a different doc.
   { type: "Long-Form Ad", client: "Dr. James Farley", href: "https://docs.google.com/document/d/1yoZgwENxQTXNI7t6-UYb1FetRO8GRUe6NHGGY1dhw_M/edit?usp=sharing" },
   { type: "Ad Script (VO)", client: "Dr. James Farley", href: "https://docs.google.com/document/d/1yoZgwENxQTXNI7t6-UYb1FetRO8GRUe6NHGGY1dhw_M/edit?usp=sharing" },
   { type: "Email Sequence", client: "Dr. James Farley", href: "https://docs.google.com/document/d/1C0Hwq-m4ibvY3nsad_HUpx7hGkayMbTOIqtc4xw1gyU/edit?usp=sharing" },
@@ -216,7 +219,6 @@ export const swipeFile: SwipeFileItem[] = [
   { type: "Landing Page", client: "Dr. CJ Benkert (PuraVida Wellness)", href: "https://docs.google.com/document/d/1Y658_NtdVHbzNaFu8A3kOWvbN9MFbnEAj81CX9Lur-4/edit?usp=sharing" },
   { type: "VSL", client: "Dr. CJ Benkert", href: "https://docs.google.com/document/d/1ZFQlChIm65tlSnRCZ7r1mGPW-J6-u6O7Q752ybhi2Wk/edit?usp=sharing" },
   { type: "VSL", client: "Oscar Bonilla (Elite One Trading)", href: "https://docs.google.com/document/d/14nhlCeMvz-zsA7udvVFyAmAH3WuAYSclc8OjNsucduY/edit?usp=sharing" },
-  // TODO: confirm sharing permissions on this doc before launch — link may currently be restricted.
   { type: "Static Graphics", client: "—", href: "https://docs.google.com/document/d/1r5W4TRNtpZPWzBhOSJJqwkValJtZ8qnPTcCWFgGD904/edit?usp=sharing" },
 ];
 
