@@ -303,8 +303,7 @@ export const experience: ExperienceEntry[] = [
   {
     role: "Freelance Performance Marketer",
     org: "Real Estate Firm",
-    // TODO: confirm exact engagement dates for this freelance role.
-    dates: "Dates TBD",
+    dates: "Jun 2025 – Sep 2025",
     bullets: [
       "Developed ad copy and static creatives and managed Meta campaigns for a high-ticket real estate offer.",
       "Generated leads and messaging conversations at an average cost of ~$4 per result, contributing to 5 apartment sales in one month, with individual properties valued at ~$55K–75K.",

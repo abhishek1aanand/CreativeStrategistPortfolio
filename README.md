@@ -45,6 +45,5 @@ Semantic HTML, visible focus states throughout, and scroll-reveal animations tha
 
 ## Open items
 
-- [ ] Confirm engagement dates for the freelance real estate role (`lib/content.ts` → `experience`)
 - [ ] Add resume/portfolio PDF link (`lib/content.ts` → `links`)
 - [ ] Verify sharing permissions on the Static Graphics swipe file doc
