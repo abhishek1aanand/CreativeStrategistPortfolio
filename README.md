@@ -43,7 +43,8 @@ The recurring visual motif is `StatCard` — an ad-platform-style metrics tile r
 
 Semantic HTML, visible focus states throughout, and scroll-reveal animations that are skipped entirely under `prefers-reduced-motion: reduce`.
 
-## Open items
+## Content maintenance
 
-- [ ] Fix sharing on the Dr. James Farley doc — currently returns HTTP 401, breaking
-      both the "Long-Form Ad" and "Ad Script (VO)" swipe file cards
+All swipe file links point at externally hosted Google Docs. If one is ever set
+back to "Restricted", its card will silently dead-end for visitors — worth
+re-checking the links after any sharing changes.
