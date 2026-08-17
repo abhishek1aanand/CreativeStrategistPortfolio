@@ -1,11 +1,11 @@
 // Single source of truth for portfolio copy, stats, and links.
 // Update numbers/links here without touching component JSX.
 
-// TODO: no resume/portfolio PDF link has been provided yet. Add it here (and
-// wire it into Nav/Hero/Footer as needed) once a URL exists.
 export const links = {
   linkedin: "https://www.linkedin.com/in/abhisshhekaananda/",
   calendly: "https://calendly.com/abhi_copywriter/30min",
+  portfolio:
+    "https://docs.google.com/document/d/1sA8AJvuhDUboLHvKH2HczdA3ZNHuxzeUFAlWu3XTCRw/edit?usp=sharing",
   email: "abhishek1aanand@gmail.com",
   phone: "+91 9955548795",
 };
@@ -44,6 +44,7 @@ export const hero = {
   ctas: [
     { label: "Email Me", href: `mailto:${links.email}`, external: false, kind: "outline" as const },
     { label: "LinkedIn", href: links.linkedin, external: true, kind: "outline" as const },
+    { label: "View Portfolio", href: links.portfolio, external: true, kind: "outline" as const },
     { label: "See Case Studies", href: "#case-studies", external: false, kind: "ghost" as const },
   ],
   stats: [

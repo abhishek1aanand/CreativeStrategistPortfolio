@@ -45,5 +45,4 @@ Semantic HTML, visible focus states throughout, and scroll-reveal animations tha
 
 ## Open items
 
-- [ ] Add resume/portfolio PDF link (`lib/content.ts` → `links`)
 - [ ] Verify sharing permissions on the Static Graphics swipe file doc

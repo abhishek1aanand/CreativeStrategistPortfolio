@@ -25,6 +25,14 @@ export default function Footer() {
           >
             LinkedIn
           </a>
+          <a
+            href={links.portfolio}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+          >
+            Portfolio
+          </a>
           <span>{links.phone}</span>
           <span>{footer.location}</span>
         </div>
