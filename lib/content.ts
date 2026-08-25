@@ -245,10 +245,13 @@ export const skillGroups: SkillGroup[] = [
     label: "Performance Creative",
     skills: [
       "Meta Ads",
+      "TikTok Ads",
+      "Google Ads",
       "UGC Strategy & Scripting",
       "Static Ad Creative",
       "Video Creative",
       "Creative Direction",
+      "Creative Briefing",
       "Direct-Response Copywriting",
       "Offer Positioning",
     ],
@@ -269,10 +272,17 @@ export const skillGroups: SkillGroup[] = [
   {
     label: "Tools & Platforms",
     skills: [
-      "GoHighLevel",
       "Meta Ads Manager",
+      "Meta Ad Library",
+      "GoHighLevel",
       "Google Analytics",
       "Canva",
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Creatify",
+      "Higgsfield",
+      "ElevenLabs",
       "Google Docs/Slides",
       "Monday.com",
       "ClickUp",
@@ -289,7 +299,7 @@ export type ExperienceEntry = {
 
 export const experience: ExperienceEntry[] = [
   {
-    role: "Full-Stack Copywriter & Creative Strategist",
+    role: "Creative Strategist & D2C Direct Response Copywriter",
     org: "Wojo Media",
     dates: "Sep 2025 – Aug 2026",
     bullets: [
@@ -301,9 +311,9 @@ export const experience: ExperienceEntry[] = [
     ],
   },
   {
-    role: "Freelance Performance Marketer",
+    role: "Creative Strategist & Direct Response Copywriter",
     org: "Real Estate Firm",
-    dates: "Jun 2025 – Sep 2025",
+    dates: "Jun 2024 – Sep 2025",
     bullets: [
       "Developed ad copy and static creatives and managed Meta campaigns for a high-ticket real estate offer.",
       "Generated leads and messaging conversations at an average cost of ~$4 per result, contributing to 5 apartment sales in one month, with individual properties valued at ~$55K–75K.",
