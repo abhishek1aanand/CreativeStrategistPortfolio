@@ -128,7 +128,7 @@ export const caseStudies: CaseStudy[] = [
     kicker: "Airlinepops · eCommerce",
     headline: "A 3.5x ROAS that held for six months",
     narrative:
-      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months on roughly $20K in Meta spend across the period. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
+      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months and roughly $70K in revenue across the period. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
     stats: [
       { label: "7-day ROAS", value: "3.28x", sublabel: "Sampled week" },
       { label: "Cost per purchase", value: "$6.73", sublabel: "77 purchases" },
@@ -252,6 +252,7 @@ export const skillGroups: SkillGroup[] = [
       "Video Creative",
       "Creative Direction",
       "Creative Briefing",
+      "A/B Testing",
       "Direct-Response Copywriting",
       "Offer Positioning",
     ],
@@ -266,6 +267,7 @@ export const skillGroups: SkillGroup[] = [
       "Nurture & Retargeting Email Sequences",
       "CRO",
       "Funnel Mapping",
+      "AOV & LTV",
       "GoHighLevel (Landing Pages, Pop-Ups, Thank-You Funnels)",
     ],
   },
