@@ -50,7 +50,7 @@ export const hero = {
   stats: [
     {
       label: "Airlinepops / ROAS",
-      value: "~3.0x",
+      value: "~3.5x",
       sublabel: "Sustained over 6 consecutive months",
     },
     {
@@ -126,11 +126,11 @@ export const caseStudies: CaseStudy[] = [
   {
     id: "airlinepops",
     kicker: "Airlinepops · eCommerce",
-    headline: "A 3x ROAS that held for six months",
+    headline: "A 3.5x ROAS that held for six months",
     narrative:
-      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3x ROAS over 6 consecutive months on ~$700–800/week in Meta spend. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
+      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months on roughly $20K in Meta spend across the period. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
     stats: [
-      { label: "7-day ROAS", value: "3.28x", sublabel: "$518.29 spend" },
+      { label: "7-day ROAS", value: "3.28x", sublabel: "Sampled week" },
       { label: "Cost per purchase", value: "$6.73", sublabel: "77 purchases" },
       { label: "CTR", value: "5.56%", sublabel: "Meta ad campaign" },
     ],
