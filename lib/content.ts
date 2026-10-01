@@ -124,19 +124,6 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
-    id: "airlinepops",
-    kicker: "Airlinepops · eCommerce",
-    headline: "A 3.5x ROAS that held for six months",
-    narrative:
-      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
-    stats: [
-      { label: "ROAS", value: "~3.5x", sublabel: "Sustained over 6 months" },
-      { label: "Cost per purchase", value: "$6.73", sublabel: "Peak" },
-      { label: "CTR", value: "5.56%", sublabel: "Peak, Meta ad campaign" },
-    ],
-    note: "Worked on copy and creative strategy for Airlinepops, an eCommerce brand later invited to appear on Shark Tank US.",
-  },
-  {
     id: "multi-account",
     kicker: "eCommerce · Multi-account portfolio",
     headline: "Eight campaigns, one creative system",
@@ -161,6 +148,19 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
+    id: "airlinepops",
+    kicker: "Airlinepops · eCommerce",
+    headline: "A 3.5x ROAS that held for six months",
+    narrative:
+      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
+    stats: [
+      { label: "ROAS", value: "~3.5x", sublabel: "Sustained over 6 months" },
+      { label: "Cost per purchase", value: "$6.73", sublabel: "Peak" },
+      { label: "CTR", value: "5.56%", sublabel: "Peak, Meta ad campaign" },
+    ],
+    note: "Worked on copy and creative strategy for Airlinepops, an eCommerce brand later invited to appear on Shark Tank US.",
+  },
+  {
     id: "dr-james-farley",
     kicker: "Dr. James Farley · Healthcare",
     headline: "From $3 leads to $40K collected",
@@ -173,15 +173,13 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    id: "monae-everett",
-    kicker: "Monae Everett · Coaching",
-    headline: "Two closed deals, $4,194 in a week",
+    id: "real-estate-400k",
+    kicker: "Real Estate · Freelance",
+    headline: "Creative behind ~$400K in property sales",
     narrative:
-      "Wrote webinar and campaign copy for the Celeb Framework, a coaching program for hairstylists, barbers, and makeup artists, contributing to two closed deals worth roughly $4,194 in a single 7-day window off a 10.23x webinar ROAS, backed by a low-cost lead flow for the live event that fed it.",
+      "Owned the ad copy and creatives for a second high-ticket real estate client, contributing to roughly $400K in property sales.",
     stats: [
-      { label: "7-day sales", value: "~$4,194", sublabel: "Two closed deals" },
-      { label: "Webinar ROAS", value: "10.23x", sublabel: "Sales roughly doubled week over week" },
-      { label: "Event lead flow", value: "$3.73 CPL", sublabel: "45 leads, 3.24% CTR" },
+      { label: "Property sales", value: "~$400K", sublabel: "Contributed, high-ticket client" },
     ],
   },
   {
@@ -197,13 +195,15 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    id: "real-estate-400k",
-    kicker: "Real Estate · Freelance",
-    headline: "Creative behind ~$400K in property sales",
+    id: "monae-everett",
+    kicker: "Monae Everett · Coaching",
+    headline: "Two closed deals, $4,194 in a week",
     narrative:
-      "Owned the ad copy and creatives for a second high-ticket real estate client, contributing to roughly $400K in property sales.",
+      "Wrote webinar and campaign copy for the Celeb Framework, a coaching program for hairstylists, barbers, and makeup artists, contributing to two closed deals worth roughly $4,194 in a single 7-day window off a 10.23x webinar ROAS, backed by a low-cost lead flow for the live event that fed it.",
     stats: [
-      { label: "Property sales", value: "~$400K", sublabel: "Contributed, high-ticket client" },
+      { label: "7-day sales", value: "~$4,194", sublabel: "Two closed deals" },
+      { label: "Webinar ROAS", value: "10.23x", sublabel: "Sales roughly doubled week over week" },
+      { label: "Event lead flow", value: "$3.73 CPL", sublabel: "45 leads, 3.24% CTR" },
     ],
   },
 ];
