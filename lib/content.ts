@@ -128,11 +128,11 @@ export const caseStudies: CaseStudy[] = [
     kicker: "Airlinepops · eCommerce",
     headline: "A 3.5x ROAS that held for six months",
     narrative:
-      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months and roughly $70K in revenue across the period. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
+      "Led creative strategy and wrote Meta ad copy and UGC video scripts for Airlinepops, contributing to a sustained ~3.5x ROAS over 6 consecutive months. Also wrote the brand's product description page copy and developed bundled offers aimed at growing AOV and LTV.",
     stats: [
-      { label: "7-day ROAS", value: "3.28x", sublabel: "Sampled week" },
-      { label: "Cost per purchase", value: "$6.73", sublabel: "77 purchases" },
-      { label: "CTR", value: "5.56%", sublabel: "Meta ad campaign" },
+      { label: "ROAS", value: "~3.5x", sublabel: "Sustained over 6 months" },
+      { label: "Cost per purchase", value: "$6.73", sublabel: "Peak" },
+      { label: "CTR", value: "5.56%", sublabel: "Peak, Meta ad campaign" },
     ],
     note: "Worked on copy and creative strategy for Airlinepops, an eCommerce brand later invited to appear on Shark Tank US.",
   },
@@ -194,6 +194,16 @@ export const caseStudies: CaseStudy[] = [
       { label: "Cost per result", value: "~$4", sublabel: "Leads & conversations" },
       { label: "Sales", value: "5", sublabel: "Apartments in one month" },
       { label: "Property value", value: "$55–75K", sublabel: "Per unit" },
+    ],
+  },
+  {
+    id: "real-estate-400k",
+    kicker: "Real Estate · Freelance",
+    headline: "Creative behind ~$400K in property sales",
+    narrative:
+      "Owned the ad copy and creatives for a second high-ticket real estate client, contributing to roughly $400K in property sales.",
+    stats: [
+      { label: "Property sales", value: "~$400K", sublabel: "Contributed, high-ticket client" },
     ],
   },
 ];
@@ -305,11 +315,12 @@ export const experience: ExperienceEntry[] = [
     org: "Wojo Media",
     dates: "Sep 2025 – Aug 2026",
     bullets: [
-      "Owned end-to-end creative strategy across 320+ client engagements spanning eCommerce, coaching, healthcare, home services, and financial services.",
-      "Researched target audiences, mined customer reviews, and audited competitors and existing ad creative before developing angles, hooks, and concepts for each new offer.",
-      "Wrote the resulting ad copy, UGC scripts, landing page and PDP copy, VSL scripts, webinar decks, and nurture/retargeting email sequences.",
-      "Directed graphic designers and video editors, briefing creative teams and guiding execution to keep output aligned with strategic messaging.",
-      "Reviewed creative performance data alongside the media buying team to identify winning and losing hooks and angles, feeding insights back into ongoing iteration.",
+      "Worked across 320+ client engagements in a high-volume agency environment, primarily supporting eCommerce and DTC brands, with hands-on responsibility for research, messaging, creative strategy, copy, and creative direction.",
+      "Researched target audiences, mined customer reviews, and audited competitors and existing ad creative, then translated those findings into messaging angles, hooks, and creative concepts.",
+      "Developed messaging and creative direction for Meta campaigns, then wrote the ad copy, UGC video scripts, landing page and PDP copy, and VSL scripts to keep the story consistent from cold traffic through conversion.",
+      "Wrote creative briefs translating customer insights and messaging angles into executional direction for designers and video editors, then reviewed their output against the strategic intent.",
+      "Reviewed creative performance with media buyers to identify winning and losing hooks and angles, determining the next testing priorities and feeding those decisions back into the following round of creative.",
+      "Built full landing page, pop-up, and thank-you page funnels inside GoHighLevel, and wrote the nurture and retargeting email sequences supporting them.",
     ],
   },
   {
@@ -317,8 +328,8 @@ export const experience: ExperienceEntry[] = [
     org: "Real Estate Firm",
     dates: "Jun 2024 – Sep 2025",
     bullets: [
-      "Developed ad copy and static creatives and managed Meta campaigns for a high-ticket real estate offer.",
-      "Generated leads and messaging conversations at an average cost of ~$4 per result, contributing to 5 apartment sales in one month, with individual properties valued at ~$55K–75K.",
+      "Developed ad copy and static creatives while managing Meta campaigns directly for a high-ticket real estate offer, generating leads at an average ~$4 CPL.",
+      "Contributed to 5 apartment sales in one month, with individual properties valued at approximately $55K–$75K.",
     ],
   },
 ];
@@ -331,6 +342,7 @@ export const education = {
     detail: "CGPA 8.8",
   },
   certifications: [
+    "Copy Blocks Certified by Genesis (direct-response copy framework)",
     "HubSpot Inbound Certification",
     "Canva Essentials Badge",
     "Graphic Design Essentials Badge",
