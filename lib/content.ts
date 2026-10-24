@@ -318,8 +318,8 @@ export const experience: ExperienceEntry[] = [
     org: "NeuroBella (8-Figure Supplement Brand, Europe)",
     dates: "Oct 2026 – Present",
     bullets: [
-      "Write ads, ad scripts, UGC scripts, and listicles for new product and SKU launches at a brand spending $2M+/month on ads, each positioned for a new customer segment.",
-      "Develop the unique mechanism of the problem, the unique mechanism of the solution, and the root-cause story for each new product, then turn them into concepts, angles, and hooks.",
+      "Write ads, ad scripts, UGC scripts, and listicles across the brand's product line, for a brand spending $2M+/month on ads.",
+      "Lead research and creative strategy for new SKU launches: finding the market segment for each new product, then developing the unique mechanism of the problem, the unique mechanism of the solution, and the root-cause story that shows how it serves that segment.",
       "Write iteration briefs from campaign performance data, turning winners into the next round of creative with the media buying team.",
       "Brief video editors and review their cuts against the strategy.",
     ],
