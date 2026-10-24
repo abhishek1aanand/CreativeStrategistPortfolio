@@ -39,7 +39,7 @@ export const hero = {
     { text: "Make the ad that wins.", accent: true },
   ],
   subhead:
-    "I'm Abhishek Anand. I own creative strategy end to end, from audience research through hooks, scripts, creative direction, and performance-driven iteration, with the deepest focus on eCommerce and D2C brands. Currently a creative strategist for NeuroBella, an 8-figure, Europe-based supplement brand spending $2M+ a month on ads.",
+    "I'm Abhishek Anand. I own creative strategy end to end, from audience research through hooks, scripts, creative direction, and performance-driven iteration, with the deepest focus on eCommerce and D2C brands. Currently a creative strategist for an 8-figure, Europe-based supplement brand spending $2M+ a month on ads.",
   meta: "Remote (India-based) · Open to US-based roles · 320+ client engagements",
   ctas: [
     { label: "Email Me", href: `mailto:${links.email}`, external: false, kind: "outline" as const },
