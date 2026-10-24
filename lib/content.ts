@@ -39,7 +39,7 @@ export const hero = {
     { text: "Make the ad that wins.", accent: true },
   ],
   subhead:
-    "I'm Abhishek Anand. I own creative strategy end to end, from audience research through hooks, scripts, creative direction, and performance-driven iteration, with the deepest focus on eCommerce and D2C brands. Currently a creative strategist for an 8-figure, Europe-based supplement brand spending $2M+ a month on ads.",
+    "I'm Abhishek Anand. I own creative strategy end to end, from audience research through hooks, scripts, creative direction, and performance-driven iteration, with the deepest focus on eCommerce and D2C brands. Currently a creative strategist for NeuroBella, an 8-figure, Europe-based supplement brand spending $2M+ a month on ads.",
   meta: "Remote (India-based) · Open to US-based roles · 320+ client engagements",
   ctas: [
     { label: "Email Me", href: `mailto:${links.email}`, external: false, kind: "outline" as const },
@@ -315,14 +315,13 @@ export type ExperienceEntry = {
 export const experience: ExperienceEntry[] = [
   {
     role: "Creative Strategist",
-    org: "8-Figure EU Supplement Brand (Confidential)",
+    org: "NeuroBella (8-Figure Supplement Brand, Europe)",
     dates: "Oct 2026 – Present",
     bullets: [
-      "Work on creative strategy for an 8-figure, Europe-based supplement brand running $2M+ in monthly ad spend, focused on taking new products and SKUs into new customer segments.",
-      "Research and validate new markets and customer segments for each new product.",
-      "Develop the unique mechanism of the problem, the unique mechanism of the solution, and the root-cause story that shows how each new product serves its segment.",
-      "Research concepts, angles, and hooks, write the ad copy and video scripts, and brief video editors, reviewing their cuts against the strategy.",
-      "Analyze winning ads and iterate on them to build the next round of creative.",
+      "Write ads, ad scripts, UGC scripts, and listicles for new product and SKU launches at a brand spending $2M+/month on ads, each positioned for a new customer segment.",
+      "Develop the unique mechanism of the problem, the unique mechanism of the solution, and the root-cause story for each new product, then turn them into concepts, angles, and hooks.",
+      "Write iteration briefs from campaign performance data, turning winners into the next round of creative with the media buying team.",
+      "Brief video editors and review their cuts against the strategy.",
     ],
   },
   {
